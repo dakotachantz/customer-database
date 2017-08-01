@@ -11,27 +11,30 @@ h1 {
 }
 
 .container {
-    max-width: 80%;
+    max-width: 90%;
     /* background-color: lightblue; */
     margin: 0 auto;
     display: flex;
-    /* flex-wrap: wrap;
-    justify-content: space-around; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%;
 }
 
 img {
-    height: 15.625em;
+    height: 17em;
     width: auto;
+    margin-bottom: 10px;
 }
 
 .grid {
     text-align: center;
+    height: 100%;
 }
 
 .name {
     text-transform: uppercase;
     font-weight: bold;
-    width: 27%;
+    width: 100%;
     text-align: center;
     font-size: 18px;
 }
@@ -39,25 +42,28 @@ img {
 .email {
     text-transform: uppercase;
     color: #9c9c9c;
+    font-size: 14px;
+    font-weight: lighter;
 }
 
 .underlined_text {
     border-bottom: solid 2px green;
-    /* display: inline; */
     padding-bottom: 3px;
     margin: auto;
 }
 
-.address {
-    color: darkslategray;
-    line-height: 1em;
+.strAddress {
+    padding-top: 1em;
 }
 
-.phone {
-    color: darkslategrey;
-    line-height: 1em;
+.strAddress, .address, .phone {
+    color: darkslategray;
+    line-height: .5em;
+    font-size: 14px;
 }
 
 .ssn {
     color: green;
+    font-size: 12px;
+    padding-top: 1.5em;
 }
