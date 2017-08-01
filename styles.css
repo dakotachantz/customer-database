@@ -8,6 +8,7 @@ body {
 h1 {
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 1.5em;
 }
 
 .container {
@@ -29,14 +30,17 @@ img {
 .grid {
     text-align: center;
     height: 100%;
+    margin-bottom: 2em;
 }
 
 .name {
     text-transform: uppercase;
     font-weight: bold;
-    width: 100%;
+    width: 50%;
     text-align: center;
     font-size: 18px;
+    margin: auto;
+    padding-bottom: 3px;
 }
 
 .email {
@@ -48,8 +52,6 @@ img {
 
 .underlined_text {
     border-bottom: solid 2px green;
-    padding-bottom: 3px;
-    margin: auto;
 }
 
 .strAddress {
@@ -66,4 +68,9 @@ img {
     color: green;
     font-size: 12px;
     padding-top: 1.5em;
+    filter: blur(2.5px);
+}
+
+.ssn:hover {
+    filter: none;
 }
